@@ -10,7 +10,7 @@ const App = () => {
       <h1 class="count" ondoubleclick={() => { alert("cant edit it");}}>
     {count}
 </h1>
-      <button class='increment-button' onclick={() => { 
+      <button class="increment-button" onclick={() => { 
         setCount(count + 1);
       }}
         >
